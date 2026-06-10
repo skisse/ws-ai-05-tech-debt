@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
+    <PackageReference Include="Confluent.Kafka" Version="2.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Demo files with deliberate violations — excluded from compilation, used in workshop demos -->
+    <Compile Remove="**\*_VIOLATIONS.cs" />
+  </ItemGroup>
+</Project>

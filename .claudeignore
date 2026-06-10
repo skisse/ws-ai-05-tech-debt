@@ -1,0 +1,5 @@
+# DEBT INVENTORY — CLAUDE NEVER READS THIS
+# Train/test separation: the agent analysing the codebase in Exercise 1
+# must not see the pre-computed catalogue it is being compared against.
+# Participants compare manually after Claude produces its independent analysis.
+doc/debt-inventory.md
